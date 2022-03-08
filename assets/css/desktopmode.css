@@ -1,0 +1,279 @@
+@media screen and (min-width:992px){
+
+    body{
+        text-align:center;
+    }
+
+    .app{
+        background-image: linear-gradient(to right, rgba(0, 0, 255, 0.459),rgba(255, 0, 98, 0.705)),url('');
+            
+        }
+    #mobile-menu{
+        display: none;
+    }
+    body{
+        /* background-image: url(../images/bg_body.png);
+        background-color: #e4be91;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 0% 100%;
+        padding-bottom: 10rem; */
+    }
+    .xemthem{
+        color: rgb(3, 80, 247);
+        line-height:1.6rem;
+        font-size: 2rem;
+        font-weight: 400;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .xemthem a{
+        text-decoration:none;
+    }
+
+    .xemthem a:hover{
+        font-size: 3rem;
+        font-weight:500;
+        color: black;
+        transition:all .4s ease-out
+    }
+
+
+    
+    #nav{
+        position:fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        display:flex;
+        padding:1rem;
+        justify-content:center;
+        background-color: rgba(12, 12, 12, 0.74);
+    }
+    .menu-item a{
+        padding:2rem;
+        display:inline-block;
+        text-decoration: none;
+        color:#FFF;
+        font-size:2.2rem;
+        width:100%;
+        font-weight: 300;   
+        text-transform: uppercase; 
+    }
+
+    .menu-item a:hover{
+        color:rgb(136, 177, 255);
+        font-size:3rem;
+        transition: all .3s ease-in-out;
+    }
+
+    
+
+   
+
+    .banner{
+        background-image: url("../images/nam_du.jpg");
+        background-size:cover;
+        max-height:70rem;
+        min-height: 50rem;
+        position: relative;
+
+    }
+
+    .banner-text{
+        position: absolute;
+        /* top: 35%;
+        left:10%; */
+        /* padding: 12rem 0rem; */
+        top:30rem;
+        left:2rem;
+        height: 2rem;
+        text-shadow: rgb(0, 0, 0) 1px 0.2px 8px;
+    }
+    .banner-text h2{
+        font-size: 7vw;
+        color: rgb(255, 255, 255);
+        padding-bottom: 5vw;
+    }
+    .banner-text p{
+        font-size: 2.2vw;
+        color: rgb(255, 255, 255);
+        padding-left: 2.2vw;
+    
+    }
+
+
+    .slideshow-container,
+    .prew,
+    .next,
+    .dots{
+        display: none;
+    }
+
+    #main{
+        width: 100%;
+    }
+    #about,
+    #food,
+    #resort,
+    #map{
+        padding-top: 7rem ;
+     
+    }
+
+    .food-img img,
+    .resort-img img{
+        max-width:100%;
+        height:50rem;
+        width: 80%;
+        box-shadow: 0 0 4px 1px rgb(0, 0, 0);
+    }
+
+    .txt-lage{
+        font-size: 4rem;
+    }
+
+    .about-text{
+        line-height:2rem;
+        font-size: 1.6rem;
+        padding: 2rem 10rem;
+        text-align: center;
+    }
+    
+    .about-text h2{
+        color: var(--white-text);
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    
+    
+    .about-text p{
+        color: var(--white-text);
+        font-size:1.9rem;
+        line-height: 2rem;
+        font-weight: 400;
+        padding:2rem 0;
+    }
+    
+
+    .island-text{
+        line-height:2rem;
+        font-size: 1.6rem;
+        padding: 1rem 10rem;
+        text-align: center;
+    }
+    
+    .island-text h2{
+        color: var(--white-text);
+        text-align: center;
+        padding: 10rem 0 2rem 0;
+    }
+    
+    
+    .island-text p{
+        color: var(--white-text);
+        font-size:1.9rem;
+        font-weight: 400;
+        line-height: 2rem;
+        padding:2rem 0;
+    }
+
+
+
+    .food-text{
+        line-height:2rem;
+        font-size: 1.6rem;
+        padding: 1rem 10rem;
+        text-align: center;
+    }
+    
+    .food-text h2{
+        color: var(--white-text);
+        text-align: center;
+        padding: 2rem 0;
+    }
+    
+    
+    .food-text p{
+        color: var(--white-text);
+        font-size:1.9rem;
+        font-weight: 400;
+        line-height: 2rem;
+        padding:2rem 0;
+    }
+
+    
+
+
+    .resort-text{
+        
+        line-height:2rem;
+        font-size: 1.6rem;
+        padding: 1rem 10rem;
+        text-align: center;
+    }
+    
+    .resort-text h2{
+        color: var(--white-text);   
+        text-align: center;
+        padding: 2rem 0;
+    }
+    
+    
+    .resort-text p{
+        color: var(--white-text);
+        font-size:1.9rem;
+        font-weight: 400;
+        padding:2rem 0;
+        line-height: 2rem;
+    }
+
+
+
+    #map iframe{
+        width: 100%;
+        height:45rem;
+        object-fit: cover;
+        border:0;
+        margin: 2rem 0 0 0;
+        /* padding: 0 3rem; */
+    }
+    .map-text{
+        line-height:2rem;
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+    
+    .map-text h2{
+        color: var(--white-text);
+        text-align: center;
+        padding: 0;
+    }
+    
+    
+    
+    #footer{
+        margin-top: 2rem;
+        height: auto;
+        background-color:rgba(51, 51, 51, 0.459);
+        font-size:1.6rem;
+        padding:2rem;
+        text-align:center;
+    }
+    .footer-item{
+        padding: 1rem 0;
+        color:#FFF;
+    }
+    
+    
+    
+
+    
+
+    
+
+    
+    
+}
